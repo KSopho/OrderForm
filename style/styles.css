@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;    
+}
+
+body{
+    background-image: url(../img/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;          
+}
+
+/* ---index--- */
+
+.sheukvete, .order, .button{
+    width: 750px;
+    margin-left: 600px;
+}
+
+.sheukvete, .confirm{
+    width: 750px;
+    margin-top: 56px;  
+    margin-bottom: 62px; 
+    padding: 24px 128px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-bottom: 62px;    
+}
+
+.sheukvete h2, .confirm h3, .confirm p{    
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.order input, .order textarea{
+    width: 100%;
+    padding: 22px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;    
+    color: #000000;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    resize: none;        
+}
+
+ .order .telephone, .order textarea{
+    margin-bottom: 18px;
+}
+.order textarea{
+    margin-top: 18px;
+}
+
+.order input::placeholder{
+    color: #000000;
+}
+
+.order .bold{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 1000;    
+}
+
+.bold, .confirm .p2, .button a{
+    font-size: 20px;
+}
+
+.order input[type="submit"]{
+    background-color:#01AF8C;
+    border-bottom: 3px solid #000000;
+}
+
+ 
+/* ----Radio as Checkbox---- */
+
+div.options > label > input {
+    visibility: hidden;    
+}
+
+div.options{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+div.options > label{   
+    margin-top: -40px;
+    margin-bottom: 42px;
+    width: 45%;
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;        
+}
+
+div.options > label > img{  
+    padding: 0px;
+    height:40px;
+    width:40px;
+    background: none;
+    margin-left: 10px;   
+}
+
+div.options > label > input:checked +img {  
+    background: url(../img/checkbox.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 40px 40px;
+}
+
+/* ---confirm--- */
+
+div.confirm{
+    margin: 26px 0 420px 600px;    
+    padding: 70px 30px;   
+    text-align: center;
+}
+
+.confirm h3, .confirm .p1{
+    margin-bottom: 40px;
+}
+
+p.button{    
+    margin-bottom: 40px;   
+}
+
+.button a{
+    padding: 22px 162px;
+    background-color: #F5BA22;
+    border-radius: 10px;
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+
+
+
